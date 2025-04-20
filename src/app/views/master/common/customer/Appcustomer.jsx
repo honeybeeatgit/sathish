@@ -3,7 +3,7 @@ import { Box, styled } from "@mui/material";
 import { Breadcrumb, SimpleCard } from "app/components";
 import CustomerAdd from "./CustomerAdd";
 import CustomerEdit from "./CustomerEdit";
-import CustomerList from "./CustomerList";
+import CustomerList from "./customerList";
 import { Routes, Route } from "react-router-dom";
 
 // import StepperForm from "./StepperForm";
