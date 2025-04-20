@@ -21,7 +21,7 @@ const Customer = Loadable(lazy(() => import("app/views/master/common/customer/Ap
 const Station = Loadable(lazy(() => import("app/views/master/common/station/Appstation")));
 const Tank = Loadable(lazy(() => import("app/views/master/common/tank/Apptank")));
 const InsuranceCompany = Loadable(
-  lazy(() => import("app/views/master/common/Insurance-Company/Appinsurance-Company"))
+  lazy(() => import("app/views/master/common/insurance-company/Appinsurance-Company"))
 );
 const Bunk = Loadable(lazy(() => import("app/views/master/common/bunk/Appbunk")));
 const Supplier = Loadable(lazy(() => import("app/views/master/common/supplier/Appsupplier")));
