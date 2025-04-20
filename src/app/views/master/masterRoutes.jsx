@@ -5,7 +5,7 @@ import Loadable from "app/components/Loadable";
 const Branch = Loadable(lazy(() => import("./common/branch/Appbranch")));
 const Customer = Loadable(lazy(() => import("./common/customer/Appcustomer")));
 const Consigne = Loadable(lazy(() => import("./common/station/Appstation")));
-const Tank = Loadable(lazy(() => import("./common/Tank/Apptank")));
+const Tank = Loadable(lazy(() => import("./common/tank/Apptank")));
 const InsuranceCompany = Loadable(
   lazy(() => import("./common/Insurance-Company/Appinsurance-Company"))
 );
